@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinDong.Core", "LinDong.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinDong.Database.Firebird", "LinDong.Database.Firebird\LinDong.Database.Firebird.csproj", "{3792763F-C200-4B5E-8235-66F3754D0295}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinDong.Handy_Control", "LinDong.Handy_Control\LinDong.Handy_Control.csproj", "{3B44637A-24BA-418E-8AEE-171B9E260FD7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandyControl.App", "HandyControl.App\HandyControl.App.csproj", "{43848F33-6372-4C32-A78B-62E6DCBF1A09}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,22 +31,6 @@ Global
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|x86.ActiveCfg = Release|Any CPU
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|x86.Build.0 = Release|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Debug|x86.Build.0 = Debug|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Release|x86.ActiveCfg = Release|Any CPU
-		{3B44637A-24BA-418E-8AEE-171B9E260FD7}.Release|x86.Build.0 = Release|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Debug|x86.Build.0 = Debug|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Release|x86.ActiveCfg = Release|Any CPU
-		{43848F33-6372-4C32-A78B-62E6DCBF1A09}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
