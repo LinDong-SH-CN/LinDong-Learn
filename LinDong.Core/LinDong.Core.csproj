@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\CopyMe.Firebird.tt.txt" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\Equatable.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.Tools.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Firebird.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" />
+    <None Remove="C:\Users\Shaw\.nuget\packages\linq2db.firebird\5.1.1\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" />
+    <None Remove="Sources\iconfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControl" Version="3.4.0" />
+    <PackageReference Include="IdGen" Version="3.0.3" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView" Version="2.0.0-beta.701" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WPF" Version="2.0.0-beta.701" />
+    <PackageReference Include="Microsoft.Win32.SystemEvents" Version="7.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="WPF-UI" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Page\" />
+    <Folder Include="Window\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinDong.Database.Firebird\LinDong.Database.Firebird.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sources\iconfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>
