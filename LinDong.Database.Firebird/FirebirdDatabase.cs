@@ -52,13 +52,13 @@ namespace LinDong.Database
             }
         }
 
-        private static FirebirdDatabase? _single;
+        private static FirebirdDatabase? Default;
 
         public static FirebirdDatabase UseConfig(FbDatabaseConfig config)
         {
-            if (_single == null)
-                _single = new FirebirdDatabase(config);
-            return _single;
+            if (Default == null)
+                Default = new(config);
+            return Default;
         }
     }
 
