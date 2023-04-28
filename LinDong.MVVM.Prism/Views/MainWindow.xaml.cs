@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LinDong.MVVM.Prism
+namespace LinDong.MVVM.Prism.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
