@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace LinDong.Database
 {
+    /// <summary>
+    /// The Exception For Database Driver(ProviderName) Is Null.
+    /// </summary>
+    /// <remarks>
+    /// 数据库驱动文件未加载，或加载错误。
+    /// </remarks>
     public class ProviderNameNullException : Exception
     {
-        private static readonly string _exception_msg = "Database Diver(ProviderName) is Null.";
+        private static readonly string _exception_msg = "Database Driver(ProviderName) is Null.";
 
         public ProviderNameNullException() : base(_exception_msg) { }
     }
