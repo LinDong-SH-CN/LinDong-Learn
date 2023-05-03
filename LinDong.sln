@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinDong.Core", "LinDong.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinDong.Database.Firebird", "LinDong.Database.Firebird\LinDong.Database.Firebird.csproj", "{3792763F-C200-4B5E-8235-66F3754D0295}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LearnToMVVM", "LearnToMVVM", "{CA106402-DAD1-4FFE-8658-207ED0716D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqToDB", "LinqToDB", "{6B3579B0-5CC9-4C37-B1AE-4B0F294B71FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinDong.DesktopWithPrism", "LinDong.DesktopWithPrism\LinDong.DesktopWithPrism.csproj", "{8564F820-940D-4C9F-8348-80A573F0818A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +37,22 @@ Global
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|x86.ActiveCfg = Release|Any CPU
 		{3792763F-C200-4B5E-8235-66F3754D0295}.Release|x86.Build.0 = Release|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Debug|x86.Build.0 = Debug|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Release|x86.ActiveCfg = Release|Any CPU
+		{8564F820-940D-4C9F-8348-80A573F0818A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{412850D2-A317-4651-A94A-500FA0A2FBD6} = {6B3579B0-5CC9-4C37-B1AE-4B0F294B71FA}
+		{3792763F-C200-4B5E-8235-66F3754D0295} = {6B3579B0-5CC9-4C37-B1AE-4B0F294B71FA}
+		{8564F820-940D-4C9F-8348-80A573F0818A} = {CA106402-DAD1-4FFE-8658-207ED0716D66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B38651BC-E081-4263-BC3F-BCEC431B0D91}
